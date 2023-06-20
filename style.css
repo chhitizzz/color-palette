@@ -6,3 +6,17 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+
+body{
+    background-color: #cfcccc;
+}
+
+.container .color{
+    background: #ffffff;
+}
+
+.color .react-box{
+    width: 190px;
+    height: 188px;
+    background: #c20808;
+}
