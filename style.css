@@ -12,11 +12,9 @@ body{
 }
 
 .container {
-    float: left;
-    padding-top: 0.5cm;
-    position: relative;
-    left: 5%;
-}
+    display: flex;
+    flex-wrap: wrap;
+} 
 
 .container .color{
     list-style: none;
@@ -33,4 +31,12 @@ body{
     height: 188px;
     border-radius: 5px;
     background: #c20808;
+}
+
+.color .hex-value{
+    display: block;
+    color: #000;
+    margin: 12px 0 8px;
+    font-size: 1.15rem;
+    font-weight: 500;
 }
