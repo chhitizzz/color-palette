@@ -41,6 +41,10 @@ body{
     background: #c20808;
 }
 
+.color:hover .react-box {
+    filter: brightness(105%);
+}
+
 .color .hex-value{
     display: block;
     color: #000;
