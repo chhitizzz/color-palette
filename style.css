@@ -54,7 +54,11 @@ body{
 
 .refresh-button {
     outline: none;
-    font-size: 1.2 rem;
-    font-weight: 5000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 500;
     padding: 12px 20px;
+    background: #1fae51;
 }
