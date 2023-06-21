@@ -53,6 +53,9 @@ body{
 }
 
 .refresh-button {
+    position: fixed;
+    left: 50%;
+    bottom: 5px;
     outline: none;
     color: #fff;
     cursor: pointer;
@@ -61,4 +64,5 @@ body{
     font-weight: 500;
     padding: 12px 20px;
     background: #1fae51;
+    transform: translateX(-50%);
 }
