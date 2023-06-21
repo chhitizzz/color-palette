@@ -12,10 +12,9 @@ body{
 }
 
 .container {
-    float: left;
-    padding-top: 0.5cm;
-    position: relative;
-    left: 5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 0.5cm;
 }
 
 .container .color{
@@ -51,4 +50,11 @@ body{
     margin: 12px 0 8px;
     font-size: 1.15rem;
     font-weight: 500;
+}
+
+.refresh-button {
+    outline: none;
+    font-size: 1.2 rem;
+    font-weight: 5000;
+    padding: 12px 20px;
 }
