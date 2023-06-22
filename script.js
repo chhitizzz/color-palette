@@ -15,7 +15,6 @@ const generatePalette = () => {
         color.addEventListener("click", () => copyColor(color, randomHex));
         container.appendChild(color);
 
-
     }
 }
 
