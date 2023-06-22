@@ -67,3 +67,23 @@ body{
     background: #1fae51;
     transform: translateX(-50%);
 }
+
+@media screen and (max-width: 500px) {
+    .container{
+        margin: 10px;
+    }
+
+    .container .color {
+        margin: 8px;
+        padding: 5px;
+    }
+
+    .color .react-box {
+        width: 145px;
+        height: 148px;
+    }
+
+    .color .hex-value {
+        font-size: 1rem;
+    }
+}
