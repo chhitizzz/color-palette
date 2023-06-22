@@ -1,3 +1,4 @@
+const container = document.querySelector(".container");
 const refreshBtn = document.querySelector(".refresh-button");
 
 const maxPaletteBoxes = 32;
@@ -9,7 +10,11 @@ const generatePalette = () => {
             console.log(randomHex);
 
             const color = doccument.createElement("li");
-            color.classList.add("color";)
+            color.classList.add("color");
+            color.innerHTML = `<div class="react-box" style="background: ${randomHex}"></div>
+            <span class="hex-value">${randomHex}</span>`;
+
+
     }
 }
 
