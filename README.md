@@ -35,3 +35,8 @@ This is a simple web application that generates random color palettes. It is imp
    The CSS styles are defined in the style.css file. Feel free to customize the styles according to your preferences.
    
    The JavaScript code is responsible for generating the random color palettes and can be customized in the script.js file. You can modify the color generation logic or add additional features as desired.
+
+# Screenshot
+
+<img width="960" alt="Color" src="https://github.com/chhitizzz/color-palette/assets/137091888/40138e4e-9169-4a5b-9f21-23b91fb49a40">
+
